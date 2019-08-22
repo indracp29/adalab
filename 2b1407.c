@@ -55,3 +55,30 @@ printMax(arr,n,k);
 
 return 0;
 }
+
+/*enter the number of elements to be inserted:
+6
+
+Enter the element in the array:
+12
+14
+2
+3
+17
+18
+
+enter the maximum elements:
+3
+
+SORTED ARRAY:
+
+2
+3
+12
+14
+17
+18
+maximum elements are:
+18
+17
+14
