@@ -45,11 +45,13 @@ int countIslands(int M[][COL])
 
 int main() 
 { 
-	int M[][COL] = { { 1, 1, 0, 0, 0 }, 
-					{ 1, 1, 0, 1, 1 }, 
-					{ 1, 0, 0, 1, 1 }, 
-					{ 0, 0, 0, 0, 0 }, 
-					{ 1, 0, 1, 1, 1 } }; 
+	int M[ROW][COL],n;// = { { 1, 1, 0, 0, 0 },{ 1, 1, 0, 1, 1 }, { 1, 0, 0, 1, 1 }, { 0, 0, 0, 0, 0 }, { 1, 0, 1, 1, 1 } }; 
+        cout<<"Enter the no. ele:\n ";
+        cin>>n;
+        cout<<"Enter the matrix\n ";
+        for(a=0;a<n;a++)
+          for(b=0;b<n;b++)
+	    cin>>M[i][j];
 	cout << "Number of islands is: " << countIslands(M); 
 	cout<<"\n";
 	return 0; 
